@@ -1,3 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.reg_body{
+  background: #e4e9f7;
+}
+
+
+
+.login_container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height:90vh;
+}
+
+.login_box{
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.login_form-box{
+  width: 450px;
+  margin: 0px 10px;
+}
+
+.login_form-box .browse_file{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login_form-box header{
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+}
+
+.login_form-box form .login_field{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.login_form-box form .login_input input{
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline:none;
+}
+
+.login_btn{
+  height: 35px;
+  background: rgba(76,68,182,0.808);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor:pointer;
+  transition: all .3s;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+
+.login_btn:hover{
+  opacity: 0.82;
+}
+
+.login_links{
+  margin-bottom: 15px;
+}
+
+.Rsubmit{
+  margin-left: 35vh;
+} 
+.register_link{
+color: #098dc1;
+}
 .card{
     background-color: white;
     border-radius: 8px;
@@ -585,3 +678,103 @@
   .card-body1{
     margin-left: 40px;
   }
+  .market_index {
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+  }
+  
+  .dashboard {
+    margin-left: 30px;
+    color: #080819;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  .dashboard:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(101, 230, 81);
+    color: white;
+  }
+  .dashboardn {
+    background-color:  rgb(101, 230, 81);
+    border-radius: 5px;
+    color: white;
+    margin-left: 30px;
+    height: 100%;
+    font-size: 20px;
+  }
+  
+  .dashboardn:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .land{
+    margin-left: 5vh ;
+    margin-top: 5vh;
+  }
+  
+  .land1{
+    margin-left: 5vh ;
+    margin-top: 10vh;
+  }
+  .cultivate_box{
+    border: 2px solid #030202;
+    border-radius: 10px;
+    width: 30vh;
+    height: 30vh;
+    /* margin-top: 5vh; */
+    margin-left: 5vh;
+  }
+  .Cultivate_txt{
+    margin-left: 15vh;
+  }
+  .market_box{
+    border: 2px solid #030202;
+    border-radius: 10px;
+    width: 100vh;
+    height: 30vh;
+    margin-left: 5vh;
+    margin-top: 50px;
+  }
+  .Category{
+    margin-left: 5vh;
+    margin-top: 8vh;
+  }
+  /* .form-control{
+    margin-left: 5vh;
+  } */
+  .save{
+    background-color: #36e96c;
+  }
+  .id{
+    margin-right: 40vh;
+  }
+  .landtxt{
+    margin-left: 1vw;
+    margin-top: 10px;
+    font-size: 1.55rem;
+    margin-bottom: 50px;
+  }
+  .landstatus{
+    border-radius: 15px;
+    
+    width: 70vh;
+    height: 40vh;
+    margin-right: 10px;
+    margin-bottom: 15px
+  }
+  .landstatus1{
+    border-radius: 15px;
+    width: 70vh;
+    height: 40vh;
+    margin-right: 10px;
+    margin-bottom: 15px
+}
+.land{
+  margin-top: 80px;
+}
