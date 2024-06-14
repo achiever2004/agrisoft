@@ -195,7 +195,7 @@
       <div class="d-flex flex-row motivation_aim">
         <div class=" col-12">
           <div class="d-flex flex-row justify-content-center heading">
-            <h3>Views on C@NNECT->IN</h3>
+            <h3>Views on AGRISØFT </h3>
           </div>
           <div class="col-md-12">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -213,8 +213,6 @@
                         expectations."</p>
                     </div>
                   </div>
-
-                  <!-- offline/online -->
                 </div>
                 <div class="carousel-item">
                   <div class="d-flex flex-row">
@@ -280,7 +278,7 @@
     <div class="responsive-container-block outer-container">
       <div class="responsive-container-block inner-container">
         <p class="text-blk section-head-text">
-          Team Behind C@NNECT->IN
+          Team Behind AGRISØFT
         </p>
         <!-- link cloudinary -->
         <div class="responsive-container-block">
@@ -410,7 +408,7 @@
           </a>
           <ul class="list-unstyled small">
             <li class="mb-2">
-              <h5>AGRISOFT</h5>
+              <h5>AGRISØFT</h5>
             </li>
             <div class="d-flex flex-row">
               <p>develop unnder ARUK Community.</p>
@@ -507,12 +505,9 @@
                           <h3> </h3>
                       </option>
                       <option value="2"> farmer</option>
-                      <!-- <option value="3">30-40 years</option>
-                              <option value="4">40-50 years</option>
-                              <option value="5">50-60 years</option>
-                              <option value="6">60-70 years</option>
-                              <option value="7">70-80 years</option>
-                              <option value="8">80-90 years</option> -->
+                      <option value="2"> Landlord</option>
+                      <option value="2"> Assistant</option>
+                     
                   </select>
               </div>
               <div>
@@ -520,29 +515,20 @@
                   <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="" />
               </div>
               <div>
-                  <label for="email">Age :</label>
-                  <div class="input-group mb-3 option">
-                      <select class="custom-select" id="inputGroupSelect01">
-                          <option value="2">
-                              <h3> </h3>
-                          </option>
-                          <option value="2">Male</option>
-                          <option value="3">Female</option>
-                          <option value="3">Others</option>
-                      </select>
-                  </div>
+                  <label for="Age">Age :</label>
+                  <input type="int" id="form3Example1c" class="form-control gap_placeholder" />
               </div>
               <div>
                   <label for="email">Email</label>
-                  <input type="text" id="form3Example1c" class="form-control gap_placeholder" />
+                  <input type="email" id="form3Example1c" class="form-control gap_placeholder" />
               </div>
               <div>
                   <label for="Contact">Contact :</label>
                   <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="" />
               </div>
               <div>
-                  <label for="email">Location :</label>
-                  <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="" />
+                  <label for="location">Location :</label>
+                  <input type="location" id="form3Example1c" class="form-control gap_placeholder" placeholder="" />
               </div>
           </div>
           <div class="login_field login_links">
@@ -552,8 +538,8 @@
          
           <form action=""method="post">
               <div class="login_field login_input">
-                  <label for="ID">ID:</label>
-                  <input type="email" name="email" id="email" required>
+                  <label for="Id">ID:</label>
+                  <input type="int" name="Id" id="Id" required>
               </div>
               <div class="login_field login_input">
                   <label for="password">Password</label>
@@ -565,12 +551,12 @@
               </div>
               <div>
                   <div class="login_field login_input">
-                      <label for="password">Landlord Id:</label>
-                      <input type="password" name="password" id="password" required>
+                      <label for="landlordid">Landlord Id:</label>
+                      <input type="landlordid" name="landlordid" id="landlordid" required>
                   </div>
                   <div class="login_field login_input">
-                      <label for="email">Assistant Id :</label>
-                      <input type="email" name="email" id="email" required>
+                      <label for="AssistantId">Assistant Id :</label>
+                      <input type="AssistantId" name="AssistantId" id="AssistantId" required>
                   </div>
                   
               </div>
@@ -591,7 +577,7 @@
                   </div>
               </div>
               <div>
-                  <label for="email">Location :</label>
+                  <label for="location">Location :</label>
                   <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="" />
               </div>
               <div>
@@ -601,21 +587,21 @@
                           <option value="2">
                               <h3> </h3>
                           </option>
-                          <option value="2">2 Acres</option>
-                          <option value="3">3 acres</option>
-                          <option value="3">4 Acres</option>
+                          <option value="2">dry land</option>
+                          <option value="3">wet land</option>
+                          <option value="3">both</option>
                       </select>
                   </div>
               </div>
               <div>
-                  <label for="email">Crop Planning :</label>
+                  <label for="cropplanning">Crop Planning :</label>
                   <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="Browse"/>
               </div>
               <div class="filed login_links browse_file">
                   <input type="file" id="form3Example1c"/>
               </div>
               <div>
-                  <label for="email">Budget :</label>
+                  <label for="Budget">Budget :</label>
                   <div class="input-group mb-3 option">
                       <select class="custom-select" id="inputGroupSelect01">
                           <option value="2">
@@ -628,7 +614,7 @@
                   </div>
               </div>
               <div>
-                  <label for="email">Land reports :</label>
+                  <label for="landreport">Land reports :</label>
                   <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="Browse"/>
               </div>
               <div class="browse_file">
@@ -641,14 +627,14 @@
                   </div>
                   <header>Documentation:</header>
                   <div>
-                      <label for="email">Legal Agreements :</label>
+                      <label for="legalagreements">Legal Agreements :</label>
                       <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="Browse"/>
                   </div>
                   <div class="login_field login_links browse_file">
                       <input type="file" id="form3Example1c"/>
                   </div>
                   <div>
-                      <label for="email">Contract details :</label>
+                      <label for="Contractdetails">Contract details :</label>
                       <input type="text" id="form3Example1c" class="form-control gap_placeholder" placeholder="Browse"/>
                   </div>
                   <div class="login_field login_links browse_file">
