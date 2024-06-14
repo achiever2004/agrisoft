@@ -193,29 +193,6 @@ color: #098dc1;
   .serve_space{
       margin-top: 3vh ;
   }
-  .number_equations{
-      margin-top: 5vh;
-      
-  }
-  .circle{
-      border: 2px solid black;
-      border-radius: 50%;
-      height: 70px;
-      width: 70px;
-      margin-left: 2vw;
-  }
-  .not_equal{
-      width: 30px;
-      margin-top: 3vh;
-      margin-right: 2vw;
-  }
-  .plus{
-      margin-top: 4vh ;
-  }
-  .number{
-      /* margin-left: 1vw; */
-      margin-top: 30%;
-  }
   .video_space{
       margin-top: 8vh;
   }
@@ -778,3 +755,126 @@ color: #098dc1;
 .land{
   margin-top: 80px;
 }
+/* 
+**********market4css********** */
+.responsive-box {
+  width: 50%; /* Width is set to 50% of the parent element */
+  height: 5%; /* Height is set to 25% of the parent element */
+  min-width: 150px; /* Minimum width */
+  min-height: 75px; /* Minimum height */
+  max-width: 600px; /* Maximum width */
+  max-height: 300px; /* Maximum height */
+  background-color: lightblue; /* Background color for visibility */
+  margin: auto; /* Center the box */
+  display: flex; /* Flexbox for any inner content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
+/* Ensure the box scales properly on different screen sizes */
+@media (max-width: 600px) {
+  .responsive-box {
+      width: 85%; /* Adjust width for smaller screens */
+      height: 37.5%; /* Adjust height for smaller screens */
+  }
+}
+.Friends_market{
+  margin-right: 4vw;
+}
+.friend_box1_1{
+  border: 2px solid #030202;
+  border-radius: 10px;
+  width: 70vh;
+  height: 50vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+  background-color:lightcyan
+}
+.Friends_market1_1{
+  margin-top: 10vh;
+}
+.Friends_market1_2{
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+.loc_box{
+  margin-left: 30px;
+}
+.loc1_box{
+  margin-left: 100px;
+}
+.clouds{
+  margin-left: 3vh;
+}
+.loc_box0{
+  border: 2px solid #030202;
+  border-radius: 10px;
+  width: 90vh;
+  height: 40vh;
+  margin-left: 2vh;
+  margin-top: 5vh;
+  background-color:#e6e6e6
+}
+.friend_box1_2{
+  border: 2px solid #030202;
+  border-radius: 10px;
+  width: 40vh;
+  height: 20vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+  background-color: #daf8cf;
+}
+.text_weather{
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+.sunny_cloud{
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+.update_weather{
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+.cloudy1{
+  margin-left: 5vh;
+}
+.Schemes{
+  margin-top: 10vh;
+}
+.issues{
+  margin-left: 30vh;
+}
+.transport1{
+  margin-left: 32vh;
+}
+.palce_transoprt{
+  margin-left: 3vh;
+}
+.palce_transoprt1{
+  margin-left: 5vh;
+}
+.palce_transoprt2{
+  margin-left: 6vh;
+}
+.palce_transoprt3{
+  margin-left: 1vh;
+}
+.market_box1_6{
+  border: 2px solid #030202;
+    border-radius: 10px;
+    width: 80vh;
+    height: 15vh;
+    margin-left: 2vh;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.transport_txt{
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+/* .background{
+  background-color:rgb(218, 245, 172) ;
+} */
+
