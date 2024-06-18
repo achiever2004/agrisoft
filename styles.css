@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.reg_body{
+  background: #e4e9f7;
+}
+
+
+
+.login_container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height:90vh;
+}
+
+.login_box{
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.login_form-box{
+  width: 450px;
+  margin: 0px 10px;
+}
+
+.login_form-box .browse_file{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login_form-box header{
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+}
+
+.login_form-box form .login_field{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.login_form-box form .login_input input{
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline:none;
+}
+
+.login_btn{
+  height: 35px;
+  background: rgba(76,68,182,0.808);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor:pointer;
+  transition: all .3s;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+
+.login_btn:hover{
+  opacity: 0.82;
+}
+
+.login_links{
+  margin-bottom: 15px;
+}
+
+.Rsubmit{
+  margin-left: 35vh;
+} 
+.register_link{
+color: #098dc1;
+}
+.card{
+    background-color: white;
+    border-radius: 8px;
+    width: 30vw;
+    margin-top: 15vh;
+  }
+  .card-body1{
+    margin-left: 40px;
+  }
+  .login_page{
+    background: rgb(29,64,253);
+    background: linear-gradient(90deg, rgb(69, 95, 241) 0%, rgba(246, 152, 85, 0.95) 34%, rgb(239, 87, 214) 100%);
+    /* change */
+    height: 100vh;
+    width: 100vw;
+  }
+  .btn1{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg ,#098dc1,60% ,#f417de);
+    font-size: 19px;
+    font-weight: 500;
+    color: #eee;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+  .RegisteBtn {
+    text-decoration: none;
+    font-size: 14px;
+    /* change */
+    color: rgb(51, 131, 189);
+  }
+  .account{
+    margin-left: 15%;
+  }
+  .card-body .login{
+    align-items: center;
+  }
+  .gap_placeholder{
+    margin-bottom: 20px;
+  }
+  .link{
+    color: white 
+  }
+  .form-inline{
+      gap: 20px;
+  }
+  .connect-in_image{
+      margin-top: 12vh;
+      /* change in margin top */
+      border-radius: 300px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .heading{
+      margin-top: 4vh;
+      font-style: oblique;
+  }
+  .space0{
+      margin-top: 5vh;
+      font-size: 8vh;
+  }
+  .image1{
+      border: 5px solid #555;
+      border-radius: 10px;
+      height: 12vh;
+  }
+  .image2{
+      border: 5px solid #555;
+      border-radius: 10px;
+      margin-top: 2vh;
+      height:20vh;
+  }
+  .image3{
+      border: 5px solid #555;
+      border-radius: 10px;
+      height:20vh;
+      margin-left: 2vw;
+  }
+  .image4{
+      border: 5px solid #555;
+      border-radius: 10px;
+      height: 20vh;
+      margin-top: 2vh;
+      margin-left: 2vw;
+  }
+  .content{
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+      margin-top: 3vh;
+      font-weight: 500;
+  }
+  .serve_space{
+      margin-top: 3vh ;
+  }
+  .number_equations{
+      margin-top: 5vh;
+      
+  }
+  .circle{
+      border: 2px solid black;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+      margin-left: 2vw;
+  }
+  .not_equal{
+      width: 30px;
+      margin-top: 3vh;
+      margin-right: 2vw;
+  }
+  .plus{
+      margin-top: 4vh ;
+  }
+  .number{
+      /* margin-left: 1vw; */
+      margin-top: 30%;
+  }
+  .video_space{
+      margin-top: 8vh;
+  }
+  .video_content{
+      font-style: oblique;
+      color: #b54d4d;
+  }
+  .personimage{
+      float: left;
+      border-radius: 100px;
+  }
+  .projectimageagri{
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 80vh;
+    height: 50vh;
+    margin-right: 10px;
+  }
+  .projectimageagri1{
+    width: 120vh;
+    height: 50vh;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  .view{
+    height: 100%;
+  }
+  .feedback0{
+    margin-left: 1vw;
+    margin-top: 100px;
+    font-size: 1.55rem;
+    
+  }
+  .feedback{
+    margin-left: 1vw;
+    margin-top: 2vh;
+  }
+  .carousel-inner {
+      padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+      background-color: #e1e1e1;
+      width: 5vh;
+      height: 5vh;
+      border-radius: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    @media (min-width: 768px) {
+      .card img {
+        height: 11em;
+      }
+  }
+  .colaboration{
+      margin-top: 10vh;
+  }
+  * {
+      font-family: Nunito, sans-serif;
+    }
+    
+    .text-blk {
+      /* margin-top: 5vh; */
+      padding-top: 3vh;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      line-height: 25px;
+    }
+    
+    .responsive-cell-block {
+      min-height: 75px;
+    }
+    
+    .responsive-container-block {
+      min-height: 75px;
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      justify-content: space-evenly;
+    }
+    
+    .outer-container {
+      padding-top: 10px;
+      padding-right: 50px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      background-color: rgb(244, 252, 255);
+    }
+    
+    .inner-container {
+      max-width: 1320px;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-bottom: 50px;
+      margin-left: auto;
+    }
+    
+    .section-head-text {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 48px;
+      color: rgb(0, 135, 177);
+      margin: 0 0 10px 0;
+    }
+    
+    .section-subhead-text {
+      font-size: 25px;
+      color: rgb(153, 153, 153);
+      line-height: 35px;
+      max-width: 470px;
+      text-align: center;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 60px;
+      margin-left: 0px;
+    }
+    
+    .img-wrapper {
+      width: 100%;
+    }
+    
+    .team-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .social-media-links {
+      width: 125px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .name {
+      font-size: 25px;
+      font-weight: 700;
+      color: rgb(102, 102, 102);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+    }
+    
+    .position {
+      font-size: 25px;
+      font-weight: 700;
+      color: rgb(0, 135, 177);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 50px;
+      margin-left: 0px;
+    }
+    
+    .team-img {
+      width: 90%;
+      height: 100%;
+      border-radius: 100%;
+    }
+    
+    .team-card-container {
+      width: 280px;
+      margin: 0 0 40px 0;
+    }
+    
+    @media (max-width: 500px) {
+      .outer-container {
+        padding: 10px 20px 10px 20px;
+      }
+    
+      .section-head-text {
+        text-align: center;
+      }
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+  
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .wk-desk-1 {
+    width: 8.333333%;
+  }
+  
+  .wk-desk-2 {
+    width: 16.666667%;
+  }
+  
+  .wk-desk-3 {
+    width: 25%;
+  }
+  
+  .wk-desk-4 {
+    width: 33.333333%;
+  }
+  
+  .wk-desk-5 {
+    width: 41.666667%;
+  }
+  
+  .wk-desk-6 {
+    width: 50%;
+  }
+  
+  .wk-desk-7 {
+    width: 58.333333%;
+  }
+  
+  .wk-desk-8 {
+    width: 66.666667%;
+  }
+  
+  .wk-desk-9 {
+    width: 75%;
+  }
+  
+  .wk-desk-10 {
+    width: 83.333333%;
+  }
+  
+  .wk-desk-11 {
+    width: 91.666667%;
+  }
+  
+  .wk-desk-12 {
+    width: 100%;
+  }
+  
+  @media (max-width: 1024px) {
+    .wk-ipadp-1 {
+      width: 8.333333%;
+    }
+  
+    .wk-ipadp-2 {
+      width: 16.666667%;
+    }
+  
+    .wk-ipadp-3 {
+      width: 25%;
+    }
+  
+    .wk-ipadp-4 {
+      width: 33.333333%;
+    }
+  
+    .wk-ipadp-5 {
+      width: 41.666667%;
+    }
+  
+    .wk-ipadp-6 {
+      width: 50%;
+    }
+  
+    .wk-ipadp-7 {
+      width: 58.333333%;
+    }
+  
+    .wk-ipadp-8 {
+      width: 66.666667%;
+    }
+  
+    .wk-ipadp-9 {
+      width: 75%;
+    }
+  
+    .wk-ipadp-10 {
+      width: 83.333333%;
+    }
+  
+    .wk-ipadp-11 {
+      width: 91.666667%;
+    }
+  
+    .wk-ipadp-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .wk-tab-1 {
+      width: 8.333333%;
+    }
+  
+    .wk-tab-2 {
+      width: 16.666667%;
+    }
+  
+    .wk-tab-3 {
+      width: 25%;
+    }
+  
+    .wk-tab-4 {
+      width: 33.333333%;
+    }
+  
+    .wk-tab-5 {
+      width: 41.666667%;
+    }
+  
+    .wk-tab-6 {
+      width: 50%;
+    }
+  
+    .wk-tab-7 {
+      width: 58.333333%;
+    }
+  
+    .wk-tab-8 {
+      width: 66.666667%;
+    }
+  
+    .wk-tab-9 {
+      width: 75%;
+    }
+  
+    .wk-tab-10 {
+      width: 83.333333%;
+    }
+  
+    .wk-tab-11 {
+      width: 91.666667%;
+    }
+  
+    .wk-tab-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .wk-mobile-1 {
+      width: 8.333333%;
+    }
+  
+    .wk-mobile-2 {
+      width: 16.666667%;
+    }
+  
+    .wk-mobile-3 {
+      width: 25%;
+    }
+  
+    .wk-mobile-4 {
+      width: 33.333333%;
+    }
+  
+    .wk-mobile-5 {
+      width: 41.666667%;
+    }
+  
+    .wk-mobile-6 {
+      width: 50%;
+    }
+  
+    .wk-mobile-7 {
+      width: 58.333333%;
+    }
+  
+    .wk-mobile-8 {
+      width: 66.666667%;
+    }
+  
+    .wk-mobile-9 {
+      width: 75%;
+    }
+  
+    .wk-mobile-10 {
+      width: 83.333333%;
+    }
+  
+    .wk-mobile-11 {
+      width: 91.666667%;
+    }
+  
+    .wk-mobile-12 {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {     
+    .card img {
+      height: 11em;
+    }
+  }
+  .BoxAgri1{
+    border: 2px solid hsl(0, 9%, 7%);
+    border-radius: 10px;
+    width: 200vw;
+    height: 60vh;
+    margin-top: 50px;
+  
+  }
+  .textAgri{
+    margin-left: 5px;
+    font-size: 4vh;
+  }
+  .textAgri1{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .socialAgri{
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .BoxAgri0{
+    border: 2px solid #030202;
+    border-radius: 10px;
+    width: 50vh;
+    height: 30vh;
+    margin-top: 5vh;
+    margin-right: 20vh;
+  }
+  .BoxAgri{
+    border: 2px solid hsl(0, 10%, 96%);
+    border-radius: 10px;
+    width: 80vh;
+    height: 30vh;
+  }
+  .BoxAgri01{
+    border: 2px solid #030202;
+    border-radius: 10px;
+    width: 50vh;
+    height: 30vh;
+    margin-left: 30px;
+  }
+  .Aboutus{
+    margin-left: 10px;
+  }
+  .reach{
+    margin-left: 25vh;
+    margin-top: 2px;
+  }
+  .submit{
+    background-color: #098dc1;
+  }
+  .card{
+    background-color: white;
+    border-radius: 8px;
+    width: 30vw;
+    margin-top: 15vh;
+  }
+  .card-body1{
+    margin-left: 40px;
+  }
+  .market_index {
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+  }
+  
+  .dashboard {
+    margin-left: 30px;
+    color: #080819;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  .dashboard:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(101, 230, 81);
+    color: white;
+  }
+  .dashboardn {
+    background-color:  rgb(101, 230, 81);
+    border-radius: 5px;
+    color: white;
+    margin-left: 30px;
+    height: 100%;
+    font-size: 20px;
+  }
+  
+  .dashboardn:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .land{
+    margin-left: 5vh ;
+    margin-top: 5vh;
+  }
+  
+  .land1{
+    margin-left: 5vh ;
+    margin-top: 10vh;
+  }
+  .cultivate_box{
+    
+    border-radius: 10px;
+    width: 30vh;
+    height: 30vh;
+    /* margin-top: 5vh; */
+    margin-left: 5vh;
+  }
+  .Cultivate_txt{
+    margin-left: 15vh;
+  }
+  .market_box{
+    border: 2px solid #030202;
+    border-radius: 10px;
+    width: 100vh;
+    height: 30vh;
+    margin-left: 5vh;
+    margin-top: 10px;
+   
+  }
+  .txt_m{
+    margin-top: 5vh;
+    margin-left: 2vh;
+  }
+  .market_box1{
+    border: 2px solid #fe5050;
+    border-radius: 10px;
+    width: 100vh;
+    height: 10vh;
+    margin-left: 5vh;
+    margin-top: 30px;
+  }
+  .market_box1_1{
+    border: 2px solid #030202;
+    border-radius: 10px;
+    width: 100vh;
+    height: 15vh;
+    margin-left: 5vh;
+    margin-top: 30px;
+  }
+  .Category{
+    margin-left: 5vh;
+    margin-top: 8vh;
+  }
+  /* .form-control{
+    margin-left: 5vh;
+  } */
+  .save{
+    background-color: #36e96c;
+  }
+  .id{
+    margin-right: 40vh;
+  }
+  .landtxt{
+    margin-left: 1vw;
+    margin-top: 10px;
+    font-size: 1.55rem;
+    margin-bottom: 50px;
+  }
+  .landstatus{
+    border-radius: 15px;
+    
+    width: 70vh;
+    height: 40vh;
+    margin-right: 10px;
+    margin-bottom: 15px
+  }
+  .landstatus1{
+    border-radius: 15px;
+    width: 70vh;
+    height: 40vh;
+    margin-right: 10px;
+    margin-bottom: 15px
+}
+.land{
+  margin-top: 80px;
+}
+
+
+/* 
+**********market4css********** */
+.responsive-box {
+  width: 50%; /* Width is set to 50% of the parent element */
+  height: 5%; /* Height is set to 25% of the parent element */
+  min-width: 150px; /* Minimum width */
+  min-height: 75px; /* Minimum height */
+  max-width: 600px; /* Maximum width */
+  max-height: 300px; /* Maximum height */
+  background-color: lightblue; /* Background color for visibility */
+  margin: auto; /* Center the box */
+  display: flex; /* Flexbox for any inner content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
+/* Ensure the box scales properly on different screen sizes */
+@media (max-width: 600px) {
+  .responsive-box {
+      width: 85%; /* Adjust width for smaller screens */
+      height: 37.5%; /* Adjust height for smaller screens */
+  }
+}
+.Friends_market{
+  margin-right: 4vw;
+}
+.friend_box1_1{
+  border: 2px solid #030202;
+  border-radius: 10px;
+  width: 70vh;
+  height: 50vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+  background-color:lightcyan
+}
+.Friends_market1_1{
+  margin-top: 10vh;
+}
+.Friends_market1_2{
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+.loc_box{
+  margin-left: 30px;
+}
+.loc1_box{
+  margin-left: 100px;
+}
+.clouds{
+  margin-left: 3vh;
+}
+.loc_box0{
+  border: 2px solid #030202;
+  border-radius: 10px;
+  width: 90vh;
+  height: 40vh;
+  margin-left: 2vh;
+  margin-top: 5vh;
+  background-color:#e6e6e6
+}
+.friend_box1_2{
+  border: 2px solid #030202;
+  border-radius: 10px;
+  width: 40vh;
+  height: 20vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+  background-color: #daf8cf;
+}
+.text_weather{
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+.sunny_cloud{
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+.update_weather{
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+.cloudy1{
+  margin-left: 5vh;
+}
+.Schemes{
+  margin-top: 10vh;
+}
+.issues{
+  margin-left: 30vh;
+}
+.transport1{
+  margin-left: 32vh;
+}
+.palce_transoprt{
+  margin-left: 3vh;
+}
+.palce_transoprt1{
+  margin-left: 5vh;
+}
+.palce_transoprt2{
+  margin-left: 6vh;
+}
+.palce_transoprt3{
+  margin-left: 1vh;
+}
+.market_box1_6{
+  border: 2px solid #030202;
+    border-radius: 10px;
+    width: 80vh;
+    height: 15vh;
+    margin-left: 2vh;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.transport_txt{
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+/* .background{
+  background-color:rgb(218, 245, 172) ;
+} */
